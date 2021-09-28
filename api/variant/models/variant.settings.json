@@ -43,8 +43,19 @@
       "pluginOptions": {}
     },
     "product": {
-      "via": "variants",
-      "model": "product"
+      "model": "product",
+      "via": "variants"
+    },
+    "colorLabel": {
+      "type": "enumeration",
+      "enum": [
+        "black",
+        "white",
+        "green",
+        "red",
+        "tan"
+      ]
     }
   }
 }
+//! Here I made the addition to the schema of the product variant model according to the Switching To Filter commit...
