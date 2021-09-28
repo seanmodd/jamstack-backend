@@ -549,9 +549,6 @@
                 "resetPasswordToken": {
                   "type": "string"
                 },
-                "confirmationToken": {
-                  "type": "string"
-                },
                 "confirmed": {
                   "type": "boolean"
                 },
@@ -560,6 +557,15 @@
                 },
                 "role": {
                   "type": "string"
+                },
+                "paymentMethods": {
+                  "type": "object"
+                },
+                "contactInfo": {
+                  "type": "object"
+                },
+                "locations": {
+                  "type": "object"
                 },
                 "created_by": {
                   "type": "string"

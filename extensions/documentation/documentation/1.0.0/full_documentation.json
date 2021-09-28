@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "09/27/2021 5:37:13 PM"
+    "x-generation-date": "09/27/2021 11:18:33 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -4325,9 +4325,6 @@
                 "resetPasswordToken": {
                   "type": "string"
                 },
-                "confirmationToken": {
-                  "type": "string"
-                },
                 "confirmed": {
                   "type": "boolean"
                 },
@@ -4336,6 +4333,15 @@
                 },
                 "role": {
                   "type": "string"
+                },
+                "paymentMethods": {
+                  "type": "object"
+                },
+                "contactInfo": {
+                  "type": "object"
+                },
+                "locations": {
+                  "type": "object"
                 },
                 "created_by": {
                   "type": "string"
@@ -4449,6 +4455,15 @@
                 "type": "string"
               }
             }
+          },
+          "paymentMethods": {
+            "type": "object"
+          },
+          "contactInfo": {
+            "type": "object"
+          },
+          "locations": {
+            "type": "object"
           }
         }
       },
@@ -4477,9 +4492,6 @@
           "resetPasswordToken": {
             "type": "string"
           },
-          "confirmationToken": {
-            "type": "string"
-          },
           "confirmed": {
             "type": "boolean",
             "default": false
@@ -4490,6 +4502,15 @@
           },
           "role": {
             "type": "string"
+          },
+          "paymentMethods": {
+            "type": "object"
+          },
+          "contactInfo": {
+            "type": "object"
+          },
+          "locations": {
+            "type": "object"
           },
           "created_by": {
             "type": "string"
