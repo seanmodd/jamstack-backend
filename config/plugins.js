@@ -5,8 +5,8 @@ module.exports = ({ env }) => ({
       apiKey: env('SENDGRID_API_KEY'),
     },
     settings: {
-      defaultFrom: 'jamstack.course@gmail.com',
-      defaultTo: 'jamstack.course@gmail.com',
+      defaultFrom: 'shayan7710@gmail.com',
+      defaultTo: 'shayan7710@gmail.com',
     },
   },
 });
