@@ -1259,6 +1259,65 @@
           },
           "locations": {
             "type": "object"
+          },
+          "orders": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id",
+                "Items",
+                "shippingAddress",
+                "billingAddress",
+                "shippingInfo",
+                "billingInfo",
+                "shippingOption",
+                "tax"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "status": {
+                  "type": "string"
+                },
+                "Items": {
+                  "type": "object"
+                },
+                "shippingAddress": {
+                  "type": "object"
+                },
+                "billingAddress": {
+                  "type": "object"
+                },
+                "shippingInfo": {
+                  "type": "object"
+                },
+                "billingInfo": {
+                  "type": "object"
+                },
+                "shippingOption": {
+                  "type": "object"
+                },
+                "subtotal": {
+                  "type": "number"
+                },
+                "tax": {
+                  "type": "number"
+                },
+                "total": {
+                  "type": "number"
+                },
+                "users_permissions_user": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
           }
         }
       },
@@ -1306,6 +1365,12 @@
           },
           "locations": {
             "type": "object"
+          },
+          "orders": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
           },
           "created_by": {
             "type": "string"
